@@ -1,13 +1,9 @@
-.head {
-  display: flex;
-  display: -webkit-flex;
-  background-color: #4d004d;
-}
 
-.description {
-  color: black;
+.Article {
+    text-align: center;
+    background-color: #4d004d;
+    color: white; 
 }
-
 * {
     -webkit-box-sizing: border-box;
     -moz-box-sizing: border-box;
@@ -26,6 +22,14 @@
     margin-bottom: 20px;
     display: flex;
     flex-wrap: wrap;
+}
+
+.picture {
+   margin-right: 100px;
+}
+
+img {
+    max-width: 100%;
 }
 
 .col-1 {
@@ -74,4 +78,9 @@
 
 .col-12 {
     width: 100%;
+}
+
+.footer {
+   background-color: #4d004d;
+   color: white;
 }
