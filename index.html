@@ -1,17 +1,62 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<link rel="stylesheet" type="text/css" href="style.css">
+	<link rel="stylesheet" href="A2-styles.css">
 	<title>Assignment 2</title>
 </head>
 <body>
-  <div class="head">
-  	<h1 class="title"> topic</h1>
+  <div class="grid"> 
+   <div class="row">  
+    <div class="col-12"> 
+      <div class="Article"> <h1>Types of Topologies</h1> </div>
+    </div> 
+    </div>
+
+  <div class="row"> 
+    <div class="col-3"> 
+      <div class="picture"> </div>
+    </div>
+      <div class="col-9"> <h2>Overview</h2> 
+        There are moany different types of topolgies that people use to create their network. Every different type of network has their advantages and disadvantages. here is a brief discription of some of the more common types of networks.
+        </div>
   </div>
-  <div>
-  	<div class="discription">
-  		<h2> Topic </h2>
-  		
+
+   <div class="row"> 
+    <div class="col-3"> 
+      <div class="picture"> <img src="star.png"> </div>
+    </div>
+      <div class="col-9"> <h2>Star Topology</h2>
+      The star topology is used for local area networks, where all end devices are connected to a central device individually. Since each connection is individual this type of topology does use more cables. However, if one link fails it does not effect and of the other connections. Still every setup has a disadvantage. With this topology there is a lot of dependency on the central node meaning it is using a lot of resources. If the central node were to go down then the whole network would not be able to communicate with each other.
+      </div>
+   </div>
+
+   <div class="row"> 
+    <div class="col-3"> 
+      <div class="picture"> <img src="Full-mesh.png"> </div>
+    </div>
+      <div class="col-9"> <h2>Full Mesh Topology</h2> 
+      In a full mesh topology every node in the network is connected to each other. This type of topology can be implemented on either a local area network, a wireless loca area network, or a virutal local are network. Having this set-up means if one connection goes down it will be re-routed, so the node still is connected to the network. However, this type of topology can become very hard to manage if too many nodes are added due to all of the connections. It will require constant supervision.
+      </div>
+   </div>
+
+   <div class="row"> 
+    <div class="col-3"> 
+      <div class="picture"> <img src="bus.png"> </div>
+    </div>
+      <div class="col-9"> <h2>Bus Topology</h2>
+      With a bus topology every node in the network is connected to a main cable or link called a bus. This is a simple yet still reliable setup, when one link goes down the rest are still able to communicate with each other. Another benefit to this topolgy is it is scalable. Additional nodes can be added anywhere along the bus.  A disadvantage to this toplogy is if the main bus goes down then the whole network is down, and can not communicate with anyone until the bus is operational again.
+      </div>
+   </div>      
+
+<div class="row"> 
+    <div class="col-12">
+     <div class="footer">
+       <h4 class="word"> ICTN 3900 Web Services Management Assignment 2 </h4>
+     </div>
+    </div>
   </div>
+
+  </div>
+
 </body>
 </html>
