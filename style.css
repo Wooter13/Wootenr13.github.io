@@ -1,1 +1,10 @@
+.head {
+  display: flex;
+  display: -webkit-flex;
+  background-color: #4d004d;
+}
+
+.description {
+  color: black;
+}
 
